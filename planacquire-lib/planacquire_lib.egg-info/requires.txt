@@ -1,0 +1,7 @@
+numpy
+opencv-python
+h5py
+
+[ids]
+ids_peak
+ids_peak_ipl

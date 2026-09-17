@@ -1,0 +1,14 @@
+name: planacquire
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - h5py
+  - pyside6
+  - pip
+  - pip:
+      - opencv-python
+      - typing_extensions
+      - -e ./planacquire-lib[ids]
+      - -e ./planacquire

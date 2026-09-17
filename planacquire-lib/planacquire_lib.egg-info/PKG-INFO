@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: planacquire_lib
+Version: 0.0.1
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: h5py
+Provides-Extra: ids
+Requires-Dist: ids_peak; extra == "ids"
+Requires-Dist: ids_peak_ipl; extra == "ids"

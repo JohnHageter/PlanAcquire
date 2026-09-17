@@ -1,0 +1,2 @@
+[console_scripts]
+planaria-acquire = main_acquisition:main

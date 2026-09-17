@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "planacquire"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = [
+    "planacquire_lib",
+    "PySide6",
+]
+
+[project.scripts]
+planaria-acquire = "main_acquisition:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["planacquire*"]
